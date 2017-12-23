@@ -1,0 +1,32 @@
+{
+  "name": "ip-cidr-rebase",
+  "version": "0.1.0",
+  "description": "Rebase CIDR into smaller subnets",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://willfarrell@github.com/willfarrell/ip-cidr-rebase.git"
+  },
+  "keywords": [
+    "cidr",
+    "aws",
+    "waf"
+  ],
+  "author": "willfarrell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willfarrell/ip-cidr-rebase/issues"
+  },
+  "homepage": "https://github.com/willfarrell/ip-cidr-rebase#readme",
+  "dependencies": {
+    "ip-cidr": "^1.1.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1"
+  }
+}
