@@ -1,5 +1,8 @@
 # ip-cidr-rebase
-Rebase CIDR into smaller subnets
+Rebase CIDR into smaller subnets.
+
+Why does this exist? Well, AWS WAF only allows `[8,16,24,32]`, using this function you can convert `x.x.x.x/20` into 
+16 `x.x.x.x/24` CIDR Ranges. Great for build scripts.
 
 ## Install
 ```bash
